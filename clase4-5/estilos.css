@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,400;1,500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+} 
+/* ------------------HEADER */
+
+.header-banner {
+    background-image: url("./img/cafe.jpg");
+    background-color: rgb(136, 46, 46);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    }
+
+    /* Estilos menu */
+.header__navbar--principal {
+    padding: 50px;
+    list-style: none;
+    }
+
+.header__navbar--principal li {
+    display: inline-block;
+}
+
+.header__navbar--principal a {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    color: white;
+    padding: 1.1rem;
+    background-color: teal;
+    }
+
+/* -------------CONTENIDO */
+.section__contenido{
+    background-color: rgb(185, 99, 185);
+    padding: 2rem;
+    width: 75%;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: justify;
+    float: left;
+
+}
+
+/* --------------ASIDE COLUMNA */
+.aside{
+    background-color: rgb(204, 137, 50);
+    width: 25%;
+    padding: 2rem;
+    font-size: 1.2rem;
+    float: right;
+
+}
+.aside__sugerencias{
+    list-style: none;
+}
+
+
+    /* ----------FOOTER*/
+
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+}
+    .icon{
+        font-size: 2rem;
+        color: rgb(59, 59, 180);
+    }
+
+
+    /* -------- SECCIÓN CONTACTO */
+    .contacto{
+        background-image: url("./img/fondo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: rgb(160, 160, 160);
+    }
+    .contacto-form{
+        padding: 2rem;
+        max-width: 500px;
+        line-height: 25px;
+        margin: 0 auto;
+    }
+    .contacto-form fieldset{
+        padding: 1rem;
+    }
+    .contacto-form__input, textarea{
+        margin-bottom: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding: 0.5rem;
+        border: none;
+        color: rgb(83, 80, 80);
+        font-size: 1rem;
+        width: 100%;
+        background-color: rgb(187, 189, 207) ;
+    }
+
+    .btnEnviar{
+        width: 50%;
+        background-color: #068ad6;
+        border: 2px solid;
+        border-color:#295875;
+        border-radius: 0.3rem;
+        cursor: pointer;
+        padding: 0.4rem;
+        font-weight: 700;
+        font-size: 1rem;
+        color: white;
+        margin-left: 25%; /* Luego lo vamos hacer con flex */
+    }
+    .btnEnviar:hover{
+        background-color: #295875;
+        border-color: white;
+    }
+    /* Sobre nosotros */
+
+    nav{
+        width: 100%;
+    }
+    .menuSuperior{
+        list-style: none;
+    }
+    .menuSuperior li{
+        display: inline-block;
+        width: 15%;
+        position: relative;
+        background-color: aqua;
+    }
+
+    .submenu{
+        position: absolute;
+        display: none;
+        background-color: aqua;
+    }
+    .submenu li{
+        display: block;
+    }
+    .menuSuperior li:hover .submenu{
+        display: block;
+    } 

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header></header>
+    <section class="contacto">
+        <form class="contacto-form" action="">
+            <fieldset class="">
+                <legend>Formulario de Consulta</legend>
+
+                <label for="name">Nombre:</label>
+                <input class="contacto-form__input" type="text" name="name" id="" nameplaceholder="Nombre">
+                <label for="apellido">Apellido:</label>
+                <input class="contacto-form__input" type="text" name="apellido" id="apellido" placeholder="Apellido">
+
+
+                <label for="talle">Talle:</label>
+                <select name="talle" id="talle">
+                    <option value="s"> S</option>
+                    <option value="m"> M</option>
+                    <option value="l"> L</option>
+                </select>
+
+                <p>Selecciona tu país de residencia:</p>
+
+                <div>
+                    <input type="radio" id="argentina" name="pais" value="argentina" checked>
+                    <label for="argentina">Argentina</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="uruguay" name="pais" value="uruguay">
+                    <label for="uruguay">Uruguay</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="otro" name="pais" value="otro">
+                    <label for="otro">Otro</label>
+                </div>
+
+
+                <label for="consulta"> Consulta</label>
+                <textarea id="consulta" name="consulta" rows="4" cols="15"></textarea>
+
+               
+                <label for="acepta">Acepta términos y condiciones</label>
+                <input type="checkbox" name="acepta" value="1" checked />
+                <br>
+
+
+
+                <input class="btnEnviar" type="submit" value="Enviar">
+
+            </fieldset>
+
+
+    </section>
+
+
+    <footer></footer>
+    
+</body>
+</html>

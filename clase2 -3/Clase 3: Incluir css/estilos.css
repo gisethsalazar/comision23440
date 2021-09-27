@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*  ---------HEADER-------- */
+.banner {
+  background-color: rgb(184, 183, 183);
+}
+
+.menuSuperior{
+    padding: 18px;
+    list-style: none;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(168, 72, 72);
+
+}
+
+
+/* -----SECCIONES */
+
+#productos {
+  background-color: rgb(103, 103, 216);
+  color: cornsilk;
+  font-size: 20px;
+  padding: 26px;
+}
+
+#sucursales {
+  background-color: rgb(202, 199, 199);
+  padding: 26px;
+}
+
+.titulos{
+    color: darkorange;
+    font-size: 30px;
+}
+footer {
+  background-color: rgb(122, 252, 252);
+  padding: 16px;
+}

@@ -16,7 +16,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 50vh;
+
     }
 
     /* Estilos menu */
@@ -42,24 +42,40 @@ body {
     }
 
 /* -------------CONTENIDO */
+.contenedorFlex{
+    display: flex;
+}
+
+
 .section__contenido{
     background-color: rgb(185, 99, 185);
     padding: 2rem;
-    width: 75%;
+    width: 70%;
     font-size: 1.2rem;
     line-height: 1.8rem;
     text-align: justify;
-    float: left;
-
 }
+.img__locales{
+    display: flex;
+}
+.img__locales img{
+    width: 50%;
+    padding: 1rem;
+}
+.bordesRedondeados{
+    border-radius: 40px;
+}
+
+
+
+
 
 /* --------------ASIDE COLUMNA */
 .aside{
     background-color: rgb(204, 137, 50);
-    width: 25%;
+    width: 30%;
     padding: 2rem;
     font-size: 1.2rem;
-    float: right;
 
 }
 .aside__sugerencias{
@@ -70,14 +86,35 @@ body {
     /* ----------FOOTER*/
 
 footer{
-    clear: both;
     background-color: black;
     color: white;
+    padding: 1rem;
 }
+
+.footer__flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__menu{
+    list-style: none;
+    text-align: center;
+}
+.footer__menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+}
+
     .icon{
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(59, 59, 180);
     }
+.footer__credito{
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.7rem;
+}
 
 
     /* -------- SECCIÓN CONTACTO */

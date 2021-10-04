@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aquamarine;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    background-color: rgb(148, 148, 241);
+}
+.productos{
+    background-color: rgb(231, 148, 148);
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.productos img{
+    width: 60%;
+}
+.contenido{
+    display: flex;
+    background-color: cornflowerblue;
+    align-items: center;
+
+}
+.contenedor-imagen{
+    width: 50%;
+
+}
+
+.contenido img{
+    width: 100%;
+
+}
+.texto{
+    width: 50%;
+    color: white;
+    font-size: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    line-height: 25px;
+    
+}
